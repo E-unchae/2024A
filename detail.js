@@ -14,7 +14,7 @@ $(document).ready(function(){
     $('a').on("click", function(e){
         let sid = $(this).attr('menu_sid');
         if(sid){
-            location.https://e-unchae.github.io/2024A/
+            location.href="/index.html";
         }
     });
 });
