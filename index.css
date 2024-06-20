@@ -3,11 +3,11 @@ html {
 }
 font-face {
     font-family: 'Noto Sans KR';
-    src: url('./font/NotoSansKR-VariableFont_wght') format('truetype');
+    src: url('./font/Noto_Sans_KR/NotoSansKR-VariableFont_wght.ttf') format('truetype');
 }
 font-face {
     font-family: 'Song Myung';
-    src: url('./font/SongMyung-Regular') format('truetype');
+    src: url('./font/Song_Myung/SongMyung-Regular.ttf') format('truetype');
 }
 
 body {
