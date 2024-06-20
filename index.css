@@ -3,7 +3,15 @@ html {
 }
 
 body {
-    font-family: 'Noto Sans KR', sans-serif, Arial; /* 폰트를 Noto Sans Korean으로 설정 */
+    font-family: "Noto Sans KR", sans-serif;
+    // <uniquifier>: Use a unique and descriptive class name
+    // <weight>: Use a value from 100 to 900
+
+    .noto-sans-kr-<uniquifier> {
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
     background-color: #000; /* 배경을 검정색으로 설정 */
     color: #fff; /* 텍스트 색상을 흰색으로 설정 */
     margin: 0;
