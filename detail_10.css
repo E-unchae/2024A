@@ -1,282 +1,123 @@
-html {
-    height: auto
-}
-
-body {
-    background-color: #000; /* 배경을 검정색으로 설정 */
-    color: #fff; /* 텍스트 색상을 흰색으로 설정 */
-    margin: 0;
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
-    text-align: center; /* 텍스트를 가운데 정렬 */
-    // <uniquifier>: Use a unique and descriptive class name
-    // <weight>: Use a value from 100 to 900
-
-    .noto-sans-kr-<uniquifier> {
-    font-family: "Noto Sans KR", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-}
-::-webkit-scrollbar{
-    display: none; /* Chrome, Safari, Opera*/
-}
-div.contents{
-    padding: 20px;
-    padding-right: 250px;
-    padding-left: 250px;
-}
-header {
-    width: 100%;
-    max-width: 1420px; /* Set max width to 1420px */
-    margin: 0 auto; /* Auto margin for center alignment */
-}
-
-.main-title {
-    width: 100%;
-    height: auto; /* Maintain aspect ratio while resizing */
-}
-
-a{
-    cursor: pointer;
-    color: unset;
-    text-decoration: unset
-}
-
-h1 {
-    color: #fff;
-}
-
-button { padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: #444; /* Dark background for button */
-    color: #fff; /* White text for button */
-    border: none;
-    border-radius: 5px;
-}
-
-button:hover {
-    background-color: #555; /* Change background color on hover */
-}
-
-
-nav {
-    position: fixed;
-    width: 100%;
-    height: 30px;
-    margin: 0 auto;
-    padding: 0 250px;
-    text-align: center;
-}
-
-.text-left{
-    text-align: left;
-}
-.text-right{
-    text-align: right;
-}
-.main-image {
-    width: auto;
-}
-
-.menu {
-    list-style-type: none;
-    padding: 0;
-    text-align: center;
-}
-
-.menu-item {
-    display: inline-block;
-    margin: 0 auto;
-    font-size: 18px;
-    color: #fff; /* 흰색 글씨 */
-}
-
-
-p {
- margin-bottom: 0;
-}
-
-div.contents {
-    padding: 20px;
-    padding-right: 250px;
-    padding-left: 250px;
-}
-
-.scrolled {
-    background-color: #000;
-}
-
-header {
-    width: 100%;
-    max-width: 1420px; /* Set max width to 1420px */
-    margin: 0 auto; /* Auto margin for center alignment */
-}
-
-.main-title {
-    width: 100%;
-    height: auto; /* Maintain aspect ratio while resizing */
-}
-
-a {
-    cursor: pointer;
-    color: unset;
-    text-decoration: unset;
-}
-
-h1 {
-    color: #fff;
-}
-
-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: #444; /* Dark background for button */
-    color: #fff; /* White text for button */
-    border: none;
-    border-radius: 5px;
-}
-
-button:hover {
-    background-color: #555; /* Change background color on hover */
-}
-
-.navbar {
-    width: 100%;
-    height: 30px;
-    /* margin: 0 auto; */
-    
-    font-family: 'Song Myung', serif; /* 폰트 종류 */
-    padding: 0 250px;
-    text-align: center;
-    background-color: black;
-    display: block;
-    text-align: center;
-    padding: 10px 0;
-    height: 30px;
-    padding: 0 250px;
-    transition: background-color 0.3s ease;
-}
-
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
-
-.main-image {
-    width: auto;
-}
-
-.navbar-list {
-    list-style-type: none;
-    padding: 0;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-}
-
-.navbar-item {
-    margin: 0 15px;
-    font-size: 18px;
-    color: #969696; /* 흰색 글씨 */
-}
-
-.active {
-    color: #fff; /* 흰색 글씨 */
-}
-.navbar-item:hover {
-    cursor: pointer;
-}
-
-p {
-    margin-bottom: 0;
-}
-
-header.hero {
-    background: url('./image/subbackground10.png') no-repeat center center/cover;
-    padding: 50px 20px;
-    text-align: center;
-    height: 550px;
-}
-
-.hero-content {
-    position: relative;
-    display: inline-block;
-}
-
-.hero-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    display: block;
-    margin: 0 auto;
-}
-
-.hero h1 {
-font-size: 2rem;
-margin-top: 20px;
-}
-
-section.content {
-padding: 100px 20px 20px; /* Adjust padding for spacing */
-max-width: 800px;
-margin: 0 auto;
-}
-
-.content h2 {
-font-size: 1.5rem;
-border-bottom: 1px solid white;
-padding-bottom: 5px;
-}
-
-.content p {
-font-size: 1rem;
-line-height: 1.5;
-}
-.content p.title{
-font-size: 18px;
-font-weight: bold;
-font-family: 'Song Myung', serif; /* 폰트 종류 */
-}
-.sub-title{
-    font-size: 20px;
-    margin-top: 35px;
-    margin-left: 50px;
-    font-family: 'Song Myung', serif;
-}
-
-article {
-margin-top: 20px;
-}
-
-.content-image {
-    width: 100px;
-    height: 100px;
-    /* margin-top: 20px; */
-    display: block;
-}
-
-.scrolled {
-background-color: rgba(0, 0, 0, 0.8); /* 원하는 배경색으로 변경 */
-}
-.navbar-tabs{
-    list-style: none;
-    padding-bottom: 50px;
-}
-
-.navbar-tabs .navbar-link {
-color: #495057;
-}
-
-.navbar-tabs .navbar-link.active {
-color: #fff;
-}
-
-.tab-content {
-margin-top: 20px;
-}
+<!DOCTYPE html>
+<html lang="euc-kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>사이비 계보</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="detail_10.css">
+</head>
+<body id="menu3">  
+    <nav class="menu-area">
+        <div class="d-flex col-12 col-sm-12">
+            <div class="col menu-item justify-content-end text-right"><a menu_sid="3">似而非</a></div>
+        </div>
+    </nav>
+    <div class="contents">
+        <header class="hero">
+            <div class="hero-content"></div>
+        </header>
+        <ul class="navbar navbar-tabs" id="myTabContent" role="tablist"  style="border-bottom: 1px solid #fff;line-height: 2;display: flex;margin-top: 150px !important;">
+            <li class="navbar-item">
+              <a class="navbar-link active ustify-content-start" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">연혁</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link justify-content-center" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">주장/영향</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <section class="content">
+                    <p class="title">연혁</p>
+                    <p style="padding-top: 40px;" class="title">신천지의 스승, '장막성전의 어린 종' / 유재열(1949-2012)</p>
+                </section>
+                <article class="col-sm-12 col d-flex mt-5">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-2 d-flex">
+                        <img src="./image/tree_logo.png" alt="생애 이미지" class="content-image">
+                        <p class="sub-title">● 생애</p>
+                    </div>
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-6 text-left" style="margin-top: 30px;">
+                        <p>유재열은 부친 유인구와 모친 신종순 사이에 장님으로 태어났다. 유인구는 해방 전</p> 
+                        <p>만주에서 살았으며 해방 이후 귀국하여 6.25 동란 때는 고향에서 살았다. 6.25 동란</p> 
+                        <p>때의 부역행위로 인하여 유인구는 1950년 특별조치법 위반으로 징역 15년형을 받고</p> 
+                        <p>복역한 바 있다. 유인구는 월북한 아우 유인수의 의사 면허증으로 경기도 이천에서</p> 
+                        <p>병원을 개업하여 행세해 왔다.</p> 
+                    </div>
+                </article>
+                <div class="col-sm-12 col d-flex" style="margin-top: 250px;">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-2">
+                        <img src="./image/sub10.jpg">
+                    </div>
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-6 text-left" style="margin-top: 50px;height: 180px;">
+                        <p>유인구는 그의 장남 유재열과는 1968년 부자간의 인연이 해소되고 백부인 유인선에게</p> 
+                        <p>입양되어 양자가 되었다. 평소 유인구는 유재열에 대해 매우 엄격한 교육을 했고 때로</p> 
+                        <p>잘못을 저지르면 매질을 하고 묶어서 천장에 매달아 놓을 정도로 가혹했다고 한다.</p> 
+                    </div>
+                </div>
+                <div class="col-sm-12 col d-flex" style="margin-top: -140px;">
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-6 text-left" style="margin-top: 50px;height: 180px;">
+                        <p>유재열의 모친 신종순 여인은 처녀 시절에 받은 몽시를 내세우고 있다. ‘한 신령님이</p>
+                        <p>보자기에 싼 책 두권을 주기에 하나는 남편 될 사람에게 주고 하나는 아들에게 주었다’</p>
+                        <p>고 한다. 이것은 성서에 나타난  ‘두 증인’ ‘두 감람나무’ 를 유재열 유인구 부자로</p>
+                        <p>뒷받침하기 위한 조작이라는 심증을 굳혀주고 있다.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <section class="content">
+                    <p class="title">주장</p>
+                    <p style="padding-top: 40px;" class="title">신천지의 스승, '장막성전의 어린 종' / 유재열(1949-2012)</p>
+                </section>
+                <article class="col-sm-12 col d-flex mt-5">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-4 d-flex">
+                        <img src="./image/tree_logo.png" alt="생애 이미지" class="content-image">
+                        <p class="sub-title">● 장막성전의 주요 교리</p>
+                    </div>
+                    <div class="col-sm-6 text-left"  style="margin-top: 40px;">
+                        <p>장막성전의 주요 교리와 주장은 다음과 같다.</p>
+                    </div>
+                </article>
+                <div class="col-sm-12 col d-flex">
+                    <div class="col-sm-6"></div>
+                    <div class="col-sm-6 text-left" style="margin-top: 50px;height: 180px;">
+                        <p>① 우리는 오직 진리의 말씀을 위하며 하나님께서 계시하신 말씀을 전한다. 기독교는 말씀의 종교이다. 이 말씀은 곧 하나님이요 그리스도이고 곧 신령이시다. 또 말씀은 진리요 생명이 되신다.(요14:6) 말씀은 지팽이요 생수요 육신을 입고 우리 가운데 거하시는 능력이요 생명이 되신다(요1:14).또 말씀은 칼이다(히4:12). </p>
+                        <br/>
+                        <p>② 우리가 가르치는 말씀은 우리 자의로 말한 것이 아니요 나를 보내주신 하나님께서 나에게 말씀하시고 보내 주심으로 그대로 옮겨 줄 뿐이다(요12:49-50)</p>
+                        <br/>
+                        <p>③ 예수께서는 비사나 비유가 아니면 말씀하시지 않았는데 오늘날 말세지말을  당하여는 신령한 것을 밝히 보여 주심으로 그대로 일러 주는 것이다. 이 말씀은 사람의 뜻으로 낸 것이 아니며 오직 성령의 감동하심을 입은 사람들이 하나님께 받아 말한 것이므로 (벧후1:21) 이것을 마음대로 풀거나 억지로 풀 것이 아니고 오직 짝을 맞추어서 풀어야 한다. 이는 여호와의 책이 하나도 빠진 것이 없고 그 짝이 없는 것이 없기 때문이다.(사34:16). 창3:23에 그룹 화영검을 통하지 않고는 생명나무에 나갈 수 없는데 영육이 다 함께 살 수 있게 영생하게 된다.</p>
+                        <br/>
+                        <p>④ 마지막 때에 구원 받을 성도에게 때를 따라(마24:45)나눠줄 말씀은 영계설, 예언설, 역사설로 구분하며 이사야서 이후의 예언서를 주로 상고한다.</p>
+                        <br/>
+                        <p>⑤ 그러므로 말씀은 하나님께서 각 개인의 심령에게 주신 구원의 능력으로 받아들일 것이며 그 이해도 나의 구원으로부터 시작하여 가족, 사회,국가,인류에게로 뻗어나가는 것이다.</p>
+                        <br/><br/>
+                    </div>
+                </div>
+                <article class="col-sm-12 col d-flex" style="margin-top: 25rem;padding-bottom: 70px;">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-4 d-flex">
+                        <img src="./image/tree_logo.png" alt="생애 이미지" class="content-image">
+                        <p class="sub-title">● 장막성전이 미친 영향</p>
+                    </div>
+                    <div class="col-sm-6 text-left"  style="margin-top: 30px;">
+                        <p>1966년 창립한 장막성전을 중심으로 요한계시록의 예언이 성취되기 시작하였다고 주장하는 신천지</p>
+                        <P>예수교 증거장막성전이 1984년 설립되었다. 12지파 144,000명과 흰무리가 완성되면 하늘에 있는</P>
+                        <p>거룩한 성 새예루살렘이 지상에 내려와 신인합일을 이루어 사람이 죽지 않고 영생한다고 주장한다.</p>
+                        <p>장막성전이 있던 경기도 과천시를 성지로 여기며 약속의 땅으로 말한다.</p>
+                    </div>
+                </article>
+            </div>
+          </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="detail.js"></script>
+</body>
+</html>
