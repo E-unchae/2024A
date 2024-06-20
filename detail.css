@@ -1,15 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
 html {
     height: auto
 }
-font-face {
-    font-family: 'Noto Sans KR';
-    src: url('./font/Noto_Sans_KR/NotoSansKR-VariableFont_wght.ttf') format('truetype');
-}
-font-face {
-    font-family: 'Song Myung';
-    src: url('./font/Song_Myung/SongMyung-Regular.ttf') format('truetype');
-}
-
 body {
     font-family: 'Noto Sans KR', sans-serif, Arial; /* 폰트를 Noto Sans Korean으로 설정 */
     background-color: #000; /* 배경을 검정색으로 설정 */
