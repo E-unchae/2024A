@@ -191,7 +191,7 @@ p {
 }
 
 header.hero {
-    background: url('/Image/subbackground6.png') no-repeat center center/cover;
+    background: url('./image/subbackground6.png') no-repeat center center/cover;
     padding: 50px 20px;
     text-align: center;
     height: 550px;
