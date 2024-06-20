@@ -1,0 +1,275 @@
+html {
+    height: auto
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif, Arial; /* 폰트를 Noto Sans Korean으로 설정 */
+    background-color: #000; /* 배경을 검정색으로 설정 */
+    color: #fff; /* 텍스트 색상을 흰색으로 설정 */
+    margin: 0;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    text-align: center; /* 텍스트를 가운데 정렬 */
+}
+::-webkit-scrollbar{
+    display: none; /* Chrome, Safari, Opera*/
+}
+div.contents{
+    padding: 20px;
+    padding-right: 250px;
+    padding-left: 250px;
+}
+header {
+    width: 100%;
+    max-width: 1420px; /* Set max width to 1420px */
+    margin: 0 auto; /* Auto margin for center alignment */
+}
+
+.main-title {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio while resizing */
+}
+
+a{
+    cursor: pointer;
+    color: unset;
+    text-decoration: unset
+}
+
+h1 {
+    color: #fff;
+}
+
+button { padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #444; /* Dark background for button */
+    color: #fff; /* White text for button */
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555; /* Change background color on hover */
+}
+
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    margin: 0 auto;
+    padding: 0 250px;
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.main-image {
+    width: auto;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.menu-item {
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #fff; /* 흰색 글씨 */
+}
+
+
+p {
+ margin-bottom: 0;
+}
+
+div.contents {
+    padding: 20px;
+    padding-right: 250px;
+    padding-left: 250px;
+}
+
+.scrolled {
+    background-color: #000;
+}
+
+header {
+    width: 100%;
+    max-width: 1420px; /* Set max width to 1420px */
+    margin: 0 auto; /* Auto margin for center alignment */
+}
+
+.main-title {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio while resizing */
+}
+
+a {
+    cursor: pointer;
+    color: unset;
+    text-decoration: unset;
+}
+
+h1 {
+    color: #fff;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #444; /* Dark background for button */
+    color: #fff; /* White text for button */
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555; /* Change background color on hover */
+}
+
+.navbar {
+    width: 100%;
+    height: 30px;
+    /* margin: 0 auto; */
+    
+    font-family: 'Song Myung', serif; /* 폰트 종류 */
+    padding: 0 250px;
+    text-align: center;
+    background-color: black;
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    height: 30px;
+    padding: 0 250px;
+    transition: background-color 0.3s ease;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.main-image {
+    width: auto;
+}
+
+.navbar-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-item {
+    margin: 0 15px;
+    font-size: 18px;
+    color: #969696; /* 흰색 글씨 */
+}
+
+.active {
+    color: #fff; /* 흰색 글씨 */
+}
+.navbar-item:hover {
+    cursor: pointer;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+header.hero {
+    background: url('/Image/subbackground8.png') no-repeat center center/cover;
+    padding: 50px 20px;
+    text-align: center;
+    height: 550px;
+}
+
+.hero-content {
+    position: relative;
+    display: inline-block;
+}
+
+.hero-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.hero h1 {
+font-size: 2rem;
+margin-top: 20px;
+}
+
+section.content {
+padding: 100px 20px 20px; /* Adjust padding for spacing */
+max-width: 800px;
+margin: 0 auto;
+}
+
+.content h2 {
+font-size: 1.5rem;
+border-bottom: 1px solid white;
+padding-bottom: 5px;
+}
+
+.content p {
+font-size: 1rem;
+line-height: 1.5;
+}
+.content p.title{
+font-size: 18px;
+font-weight: bold;
+font-family: 'Song Myung', serif; /* 폰트 종류 */
+}
+.sub-title{
+    font-size: 20px;
+    margin-top: 35px;
+    margin-left: 50px;
+    font-family: 'Song Myung', serif;
+}
+
+article {
+margin-top: 20px;
+}
+
+.content-image {
+    width: 100px;
+    height: 100px;
+    /* margin-top: 20px; */
+    display: block;
+}
+
+.scrolled {
+background-color: rgba(0, 0, 0, 0.8); /* 원하는 배경색으로 변경 */
+}
+.navbar-tabs{
+    list-style: none;
+    padding-bottom: 50px;
+}
+
+.navbar-tabs .navbar-link {
+color: #495057;
+}
+
+.navbar-tabs .navbar-link.active {
+color: #fff;
+}
+
+.tab-content {
+margin-top: 20px;
+}

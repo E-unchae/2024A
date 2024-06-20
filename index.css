@@ -1,0 +1,221 @@
+html {
+    height: 6000px
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif, Arial; /* 폰트를 Noto Sans Korean으로 설정 */
+    background-color: #000; /* 배경을 검정색으로 설정 */
+    color: #fff; /* 텍스트 색상을 흰색으로 설정 */
+    margin: 0;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    text-align: center; /* 텍스트를 가운데 정렬 */
+}
+
+::-webkit-scrollbar{
+    display: none; /* Chrome, Safari, Opera*/
+}
+
+div.contents{
+    padding: 20px;
+    padding-right: 250px;
+    padding-left: 250px;
+}
+
+.scrolled{
+    background-color: #000;
+}
+
+header {
+    width: 100%;
+    max-width: 1420px; /* Set max width to 1420px */
+    margin: 0 auto; /* Auto margin for center alignment */
+}
+
+.main-title {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio while resizing */
+}
+
+a{
+    cursor: pointer;
+    color: unset;
+    text-decoration: unset
+}
+
+h1 {
+    color: #fff;
+}
+
+button { padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #444; /* Dark background for button */
+    color: #fff; /* White text for button */
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555; /* Change background color on hover */
+}
+
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    margin: 0 auto;
+    padding: 0 250px;
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.main-image {
+    width: auto;
+}
+
+
+p {
+ margin-bottom: 0;
+}
+
+
+.subtitle {
+    padding-top: 150px;
+    text-align: left;
+    padding-left: 100px;
+}
+
+.custom-title {
+    font-family: 'Song Myung', serif;
+    font-size: 28px;
+    color: #fff; /* 흰색 글씨 */
+}
+
+.quote {
+    max-width: 1420px; /* 최대 넓이 설정 */
+    margin: 20px auto;
+    text-align: center;
+}
+
+.quote-text {
+    font-family: 'Song Myung', serif;
+    font-size: 28px;
+    color: #fff; /* 흰색 글씨 */
+    letter-spacing: -2%; /* 자간 설정 */
+    margin-bottom: 25px; /* 두 텍스트 사이의 세로 넓이 설정 */
+    padding-top: 20px; /* 맨 위에서부터 930px 떨어지게 설정 */
+}
+
+.quote-description {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13pt;
+    color: #fff; /* 흰색 글씨 */
+    margin-top: 10px; /* 위쪽 마진 설정 */
+    text-align: center; /* 가운데 정렬 */
+    text-justify: inter-word; /* 단어 사이 공백 조정 */
+    letter-spacing: -0.5px; /* 자간 설정 */
+}
+
+.zen-antique {
+    font-family: 'Zen Antique', serif;
+    font-size: 20px;
+    color: #fff; /* 흰색 글씨 */
+}
+
+.center-image {
+    width: 135px; /* 이미지 너비 설정 */
+    display: flex; 
+    margin: 0 auto;
+}
+
+.line-area{
+    padding: 120px 0px;
+}
+.line-area .line{
+    width: 100%;
+    height: 100%;
+}
+
+.subtitle-below-title {
+    font-family: 'Song Myung', serif;
+    font-size: 23pt;
+    color: #fff; /* 흰색 글씨 */
+}
+
+.subtitle-below-description {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13pt;
+    letter-spacing: -0.5px; /* 자간 설정 */
+    color: #fff; /* 흰색 글씨 */
+    max-width: 1180px; /* 최대 넓이 설정 */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.menu-item {
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #fff; /* 흰색 글씨 */
+}
+
+.centered-image {
+    display: block;
+    margin: 0 auto;
+    width: 1180px; /* 이미지 전체 너비 설정 */
+}
+ 
+.background-texture {
+    /* position: fixed; */
+    top: 900px;
+    left: 362px;
+    width: 1179px;
+    height: 100%;
+    background-image: url('image/backgroundtexture.png');
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.background-tree{
+    width: 100%;
+    height: 4615px;
+    background-image: url(image/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image-container {
+    width: 180px; /* 이미지 컨테이너의 너비를 조정하세요 */
+    margin: 0 auto; /* 이미지 컨테이너를 가운데 정렬 */
+    text-align: center; /* 텍스트를 가운데 정렬 */
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%; /* 이미지를 원형으로 만듭니다 */
+    display: block;
+}
+
+.image-caption {
+    background-color: black; /* 캡션의 배경 색상 */
+    color: white; /* 텍스트 색상 */
+    padding: 5px 10px; /* 캡션 내부 여백 */
+    border-radius: 1rem; /* 캡션의 둥근 모서리 */
+    font-family: 'Song Myung', serif; /* 폰트 종류 */
+    font-size: 16px; /* 폰트 크기 */
+    margin-top: 10px; /* 이미지와 캡션 사이의 간격 */
+}
