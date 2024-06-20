@@ -5,7 +5,7 @@ font-face {
     font-family: 'Noto Sans KR';
     src: url('./font/NotoSansKR-VariableFont_wght') format('truetype');
 }
-font-face2 {
+font-face {
     font-family: 'Song Myung';
     src: url('./font/SongMyung-Regular') format('truetype');
 }
